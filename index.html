@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script src="js/logic.js"></script>
+	</head>
+	<body data-mfc>
+		<details>
+			<summary>Click me</summary>
+			Good job, you clicked me.
+		</details>
+		<p>
+			<button onClick="openModal('dialog')">Open a modal</button>
+			<button onClick="openDialog('dialog')">Open a non-modal dialog</button>
+
+			<dialog>
+				I'm a
+				<a
+					autofocus
+					href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog"
+					>modal</a
+				>!
+				<form method="dialog">
+					<button type="submit">Close</button>
+				</form>
+			</dialog>
+		</p>
+
+		<form method="get" action="">
+			<p>
+				<label
+					>Form
+					<input type="text" name="text" placeholder="Type text" required />
+				</label>
+				<button type="reset">Reset</button>
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+
+		<fieldset>
+			<legend>Choose one:</legend>
+			<label>
+				<input type="radio" name="radio" checked />
+				option 1</label
+			>
+			<label>
+				<input type="radio" name="radio" />
+				option 2</label
+			>
+		</fieldset>
+
+		<p>
+			<label>Choose an option: <input list="datalist-options" /></label>
+
+			<datalist id="datalist-options">
+				<option value="one"></option>
+				<option value="two"></option>
+				<option value="three"></option>
+			</datalist>
+		</p>
+
+		<p>
+			<label>
+				Button
+				<input type="button" value="Button" />
+			</label>
+		</p>
+		<p>
+			<label>
+				<input type="checkbox" />
+				Checkbox
+			</label>
+		</p>
+		<p>
+			<label>
+				Color
+				<input type="color" />
+			</label>
+		</p>
+		<p>
+			<label
+				>Date
+				<input type="date" />
+			</label>
+		</p>
+		<p>
+			<label
+				>DateTime
+				<input type="datetime-local" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Email
+				<input type="email" placeholder="email@domain.com" />
+			</label>
+		</p>
+		<p>
+			<label>
+				File
+				<input type="file" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Image
+				<input
+					type="image"
+					alt="placehold"
+					src="https://via.placeholder.com/80"
+				/>
+			</label>
+		</p>
+		<p>
+			<label>
+				Month
+				<input type="month" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Number
+				<input type="number" placeholder="number" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Password
+				<input type="password" placeholder="Password" />
+			</label>
+		</p>
+		<p>
+			<label>
+				<input type="radio" />
+				Radio
+			</label>
+		</p>
+		<p>
+			<label>
+				Range
+				<input type="range" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Tel
+				<input type="tel" placeholder="Telephone" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Text
+				<input type="text" placeholder="Text goes here" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Time
+				<input type="time" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Url
+				<input type="url" placeholder="https://example.com" />
+			</label>
+		</p>
+		<p>
+			<label
+				>Textarea
+				<textarea rows="5" cols="33" placeholder="Textarea"></textarea>
+			</label>
+		</p>
+		<p>
+			<label
+				>Select
+
+				<select>
+					<option value="">--Please choose an option--</option>
+					<option value="1">Option 1</option>
+					<option value="2">Option 2</option>
+				</select>
+			</label>
+		</p>
+	</body>
+</html>

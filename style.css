@@ -1,0 +1,15 @@
+@import url("./css/variables.css");
+
+[data-mfc] {
+	font-family: var(--mfc-font-family-body);
+}
+
+[data-mfc] input {
+	background: var(--mfc-color-white);
+	border: 1px solid var(--mfc-color-primary);
+	color: var(--mfc-color-primary);
+}
+
+[data-mfc] ::placeholder {
+	color: var(--mfc-color-secondary);
+}

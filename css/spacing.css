@@ -1,0 +1,18 @@
+:root {
+	--mfc-spacing-01: 0.25rem;
+	--mfc-spacing-02: 0.5rem;
+	--mfc-spacing-03: 0.75rem;
+	--mfc-spacing-04: 1rem;
+	--mfc-spacing-05: 1.5rem;
+	--mfc-spacing-06: 2rem;
+	--mfc-spacing-07: 3rem;
+	--mfc-spacing-08: 4rem;
+	--mfc-spacing-09: 6rem;
+	--mfc-spacing-10: 8rem;
+	--mfc-spacing-11: 12rem;
+	--mfc-spacing-12: 16rem;
+	--mfc-spacing-13: 24rem;
+	--mfc-spacing-14: 32rem;
+	--mfc-spacing-15: 40rem;
+	--mfc-spacing-16: 48rem;
+}
